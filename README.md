@@ -1,1 +1,1 @@
-PythonStudy
+最近参加的一个培训，PPT是.ipynb，所以放到这里，便于查看
