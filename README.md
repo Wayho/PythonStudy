@@ -19,14 +19,48 @@
 
 ###for循环
 
-
 [Python_4.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_4.ipynb)
+###元组
+###字符串比较、分割
+###字典
 
 [Python_5.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_5.ipynb)
+###文件读写
+###try  except  finally
+###文件目录操作
+###删除文件
 
 [calendar.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/calendar.ipynb)
 
+###开发一个万年历
+###最初版本：只会打印
+###第二阶段：确定打印天数
+###第三阶段：确定星期关系
+###第四阶段：完成“年历”
+###第五阶段：完成万年历
+
 [numpy.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/numpy.ipynb)
+
+###NumPy实例
+###ndarray数组的创建
+- 使用Python数据类型创建
+- 使用NumPy中函数创建ndarray数组
+
+###ndarray数组的变换
+- 铺平一个矩阵
+- 改变矩阵的shape/size
+
+###ndarray数组的操作
+- 一维数组的索引和切片：与Python的列表类似
+- 多维数组的索引：每个维度一个索引值，逗号分隔
+
+###ndarray数组的运算
+- 数组与标量之间的运算：数组与标量之间的运算作用于数组的每一个元素
+- NumPy一元函数：对ndarray中的数据执行元素级运算的函数
+- NumPy二元函数
+
+###NumPy与Python计算比较
+
 
 [pandas.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/pandas.ipynb)
 
