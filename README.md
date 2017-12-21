@@ -148,10 +148,15 @@
 	1. 0.8.2  SoftMax介绍
 	1. 0.8.3  实现回归模型
 
+
+#### +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+本页面使用Prose编辑
+入口地址：http://prose.io/#Wayho/PythonStudy
+页面地址http://prose.io/#Wayho/PythonStudy/edit/master/README.md
+
 #### +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ## 通过GitKraken上传文件
 GitKraken的使用方法，参考 [git图形化工具GitKraken的使用——工作区、暂存区、本地仓库](http://blog.csdn.net/mr_wuch/article/details/73385702)
 
 下图是工作区、暂存区、本地仓库的关系图
 ![GitKraken](http://img.blog.csdn.net/20170617223822237?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
