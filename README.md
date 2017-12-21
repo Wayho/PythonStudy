@@ -96,13 +96,33 @@
 	1. 0.8.1  mnist数据
 	1. 0.8.2  SoftMax介绍
 	1. 0.8.3  实现回归模型
+    
+[爬虫技术.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF.ipynb)
 
-
+- 0.1  简单爬虫
+- 0.2  爬下数据后进行正则表达式获取数据
+- 0.3  利用request爬取网页
+- 0.4  利用request模拟浏览器头信息
+- 0.5  错误处理
+- 0.6  利用beautifulsoup处理网页
+- 0.7  利用lxml结合xpath爬取数据
+- 0.8  获取多字段信息
+- 0.9  爬取javascript
+- 0.10  利用xpath和lxml爬取51job网站信息并存到文件
+- 0.11  请编程爬取智联招聘一页招聘信息
 
 
 [爬虫和数据分析.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E5%92%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.ipynb)
 
-[爬虫技术.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF.ipynb)
+- ### 爬虫和数据整理分析输出的示例
+	1. 爬虫示例，不能在cell直接运行，传递到爬虫服务器运行，爬虫服务器运行完后，会把数据传递到用户账户下
+	2. 数据整理分析示例，把上面爬虫服务器传递回来的数据文件进行清洗整理，然后分析
+			2.1. 制作雷达分析图
+			2.1. 制作工作岗位需求分析图
+			2.1. 制作城市岗位需求分析图
+			2.1. 制作岗位薪酬分析图
+			2.1. 制作城市薪酬分析图
+
 
 [线性回归到神经网络.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%88%B0%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.ipynb)
 
