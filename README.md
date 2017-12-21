@@ -73,6 +73,24 @@
 - ### NumPy与Python计算比较
 
 
+
+
+    
+[爬虫技术.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF.ipynb)
+
+- ### 0.1  简单爬虫
+- ### 0.2  爬下数据后进行正则表达式获取数据
+- ### 0.3  利用request爬取网页
+- ### 0.4  利用request模拟浏览器头信息
+- ### 0.5  错误处理
+- ### 0.6  利用beautifulsoup处理网页
+- ### 0.7  利用lxml结合xpath爬取数据
+- ### 0.8  获取多字段信息
+- ### 0.9  爬取javascript
+- ### 0.10  利用xpath和lxml爬取51job网站信息并存到文件
+- ### 0.11  请编程爬取智联招聘一页招聘信息
+
+
 [pandas.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/pandas.ipynb)
 - ### 数据分析之pandas
 - ### Pandas库的Series类型
@@ -81,35 +99,6 @@
 - ### Pandas库的DataFrame类型
 	1. pandas实例1：排序，计算
 	1. pandas实例2：使用pandas的read_csv方法读取csv文件，计算
-
-
-[tensorflow基础.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/tensorflow%E5%9F%BA%E7%A1%80.ipynb)
-
-- ### 0.1  Tensorflow基础
-- ### 0.2  Tensorflow 常量
-- ### 0.3  Tensorflow变量
-- ### 0.4  Fetches 取回
-- ### 0.5  Feeds供给
-- ### 0.6  Tensorboard可视化
-- ### 0.7  Tensorflow拟合平面
-- ### 0.8  tensorflow实现手写数字识别
-	1. 0.8.1  mnist数据
-	1. 0.8.2  SoftMax介绍
-	1. 0.8.3  实现回归模型
-    
-[爬虫技术.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF.ipynb)
-
-- 0.1  简单爬虫
-- 0.2  爬下数据后进行正则表达式获取数据
-- 0.3  利用request爬取网页
-- 0.4  利用request模拟浏览器头信息
-- 0.5  错误处理
-- 0.6  利用beautifulsoup处理网页
-- 0.7  利用lxml结合xpath爬取数据
-- 0.8  获取多字段信息
-- 0.9  爬取javascript
-- 0.10  利用xpath和lxml爬取51job网站信息并存到文件
-- 0.11  请编程爬取智联招聘一页招聘信息
 
 
 [爬虫和数据分析.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E5%92%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.ipynb)
@@ -127,6 +116,37 @@
 [线性回归到神经网络.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%88%B0%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.ipynb)
 
 [贝叶斯.ipynb](线性回归到神经网络.ipynb)
+
+    1  机器学习
+        1.1  基本概念
+        1.2  样本集、训练集、测试集
+            1.2.1  欠拟合 过拟合
+            1.2.2  样本集 测试集 的 选取方法
+                1.2.2.1  留出法
+                1.2.2.2  交叉验证法
+    2  贝叶斯分类器
+        2.1  贝叶斯概念
+        2.2  Native Bayes
+            2.2.1  实践
+            2.2.2  第一步 Bayes公式的分析
+            2.2.3  第二步 数据集与贝叶斯公式的关系
+                2.2.3.1  0值处理
+                2.2.3.2  第三步 实际数据分析示例
+            2.2.4  用scikit-learn实现
+
+[tensorflow基础.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/tensorflow%E5%9F%BA%E7%A1%80.ipynb)
+
+- ### 0.1  Tensorflow基础
+- ### 0.2  Tensorflow 常量
+- ### 0.3  Tensorflow变量
+- ### 0.4  Fetches 取回
+- ### 0.5  Feeds供给
+- ### 0.6  Tensorboard可视化
+- ### 0.7  Tensorflow拟合平面
+- ### 0.8  tensorflow实现手写数字识别
+	1. 0.8.1  mnist数据
+	1. 0.8.2  SoftMax介绍
+	1. 0.8.3  实现回归模型
 
 ### 通过GitKraken上传文件
 GitKraken的使用方法，参考 [git图形化工具GitKraken的使用——工作区、暂存区、本地仓库](http://blog.csdn.net/mr_wuch/article/details/73385702)
