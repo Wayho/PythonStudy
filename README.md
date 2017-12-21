@@ -3,7 +3,7 @@
 .ipynb在Github中可以直接浏览，不过加载较慢，可以打开http://nbviewer.jupyter.org 后填入Wayho，选择PythonStudy进行浏览，快捷方式为http://nbviewer.jupyter.org/github/wayho/PythonStudy/tree/master/ipynb/
 
 
-## .ipynb文件位于ipynb下面
+## 目录
 [Python_3.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_3.ipynb)
 
 - #### while循环
