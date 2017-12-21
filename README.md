@@ -4,6 +4,22 @@
 ## .ipynb文件位于ipynb下面
 [Python_3.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_3.ipynb)
 
+###while循环
+- break
+- continue
+
+###列表
+- append
+- extend
+- insert
+- remove
+- 二级索引
+- 切片
+- 连接两个列表
+
+###for循环
+
+
 [Python_4.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_4.ipynb)
 
 [Python_5.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_5.ipynb)
@@ -26,6 +42,7 @@
 
 ### 通过GitKraken上传文件
 GitKraken的使用方法，参考 [git图形化工具GitKraken的使用——工作区、暂存区、本地仓库](http://blog.csdn.net/mr_wuch/article/details/73385702)
+
 下图是工作区、暂存区、本地仓库的关系图
 ![GitKraken](http://img.blog.csdn.net/20170617223822237?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
