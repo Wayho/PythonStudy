@@ -4,67 +4,101 @@
 ## .ipynb文件位于ipynb下面
 [Python_3.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_3.ipynb)
 
-###while循环
-- break
-- continue
+- ### while循环
+	1. break
+	1. continue
 
-###列表
-- append
-- extend
-- insert
-- remove
-- 二级索引
-- 切片
-- 连接两个列表
+- ### 列表
+	1. append
+	1. extend
+	1. insert
+	1. remove
+	1. 二级索引
+	1. 切片
+	1. 连接两个列表
 
-###for循环
+- ### for循环
 
 [Python_4.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_4.ipynb)
-###元组
-###字符串比较、分割
-###字典
+- ### 元组
+- ### 字符串比较、分割
+- ### 字典
+
 
 [Python_5.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/Python_5.ipynb)
-###文件读写
-###try  except  finally
-###文件目录操作
-###删除文件
+- ### 文件读写
+- ### try  except  finally
+- ### 文件目录操作
+- ### 删除文件
+
 
 [calendar.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/calendar.ipynb)
 
-###开发一个万年历
-###最初版本：只会打印
-###第二阶段：确定打印天数
-###第三阶段：确定星期关系
-###第四阶段：完成“年历”
-###第五阶段：完成万年历
+1. 开发一个万年历
+1. 最初版本：只会打印
+1. 第二阶段：确定打印天数
+1. 第三阶段：确定星期关系
+1. 第四阶段：完成“年历”
+1. 第五阶段：完成万年历
+
+
+[test.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/test.ipynb)
+
+- ### 培训考核题
+	1. 恺撒密码
+	1. 统计词频
+	1. 进制换算
+
 
 [numpy.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/numpy.ipynb)
 
-###NumPy实例
-###ndarray数组的创建
-- 使用Python数据类型创建
-- 使用NumPy中函数创建ndarray数组
+- ### NumPy实例
+- ### ndarray数组的创建
+	1. 使用Python数据类型创建
+	1. 使用NumPy中函数创建ndarray数组
 
-###ndarray数组的变换
-- 铺平一个矩阵
-- 改变矩阵的shape/size
+- ### ndarray数组的变换
+	1. 铺平一个矩阵
+	1. 改变矩阵的shape/size
 
-###ndarray数组的操作
-- 一维数组的索引和切片：与Python的列表类似
-- 多维数组的索引：每个维度一个索引值，逗号分隔
+- ### ndarray数组的操作
+	1. 一维数组的索引和切片：与Python的列表类似
+	1. 多维数组的索引：每个维度一个索引值，逗号分隔
 
-###ndarray数组的运算
-- 数组与标量之间的运算：数组与标量之间的运算作用于数组的每一个元素
-- NumPy一元函数：对ndarray中的数据执行元素级运算的函数
-- NumPy二元函数
+- ### ndarray数组的运算
+	1. 数组与标量之间的运算：数组与标量之间的运算作用于数组的每一个元素
+	1. NumPy一元函数：对ndarray中的数据执行元素级运算的函数
+	1. NumPy二元函数
 
-###NumPy与Python计算比较
+- ### NumPy与Python计算比较
 
 
 [pandas.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/pandas.ipynb)
+- ### 数据分析之pandas
+- ### Pandas库的Series类型
+	1. Series类型的创建
+
+- ### Pandas库的DataFrame类型
+	1. pandas实例1：排序，计算
+	1. pandas实例2：使用pandas的read_csv方法读取csv文件，计算
+
 
 [tensorflow基础.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/tensorflow%E5%9F%BA%E7%A1%80.ipynb)
+
+- ### 0.1  Tensorflow基础
+- ### 0.2  Tensorflow 常量
+- ### 0.3  Tensorflow变量
+- ### 0.4  Fetches 取回
+- ### 0.5  Feeds供给
+- ### 0.6  Tensorboard可视化
+- ### 0.7  Tensorflow拟合平面
+- ### 0.8  tensorflow实现手写数字识别
+	1. 0.8.1  mnist数据
+	1. 0.8.2  SoftMax介绍
+	1. 0.8.3  实现回归模型
+
+
+
 
 [爬虫和数据分析.ipynb](https://github.com/Wayho/PythonStudy/blob/master/ipynb/%E7%88%AC%E8%99%AB%E5%92%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.ipynb)
 
