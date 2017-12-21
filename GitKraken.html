@@ -1,41 +1,4 @@
-<div>&nbsp;<a href="http://blog.csdn.net/mr_wuch/article/details/73385702" target="_blank">http://blog.csdn.net/mr_wuch/article/details/73385702</a><br/>
-<br/>
-<h1>git图形化工具GitKraken的使用——工作区、暂存区、本地仓库</h1>        
-<div>            
-<div>                <span>                原创                </span>                <span>2017年06月17日 21:56:22</span>            </div>
-            <ul data-mod="popu_377">                <li>标签：</li>                                                            <li><a href="http://so.csdn.net/so/search/s.do?q=git&amp;t=blog" target="_blank">git</a></li></ul></div>
+# git图形化工具GitKraken的使用——工作区、暂存区、本地仓库
 
-<div><ul>                                            </ul>        </div>
-        
-<div data-dsm="post" data-mod="popu_519" style="overflow:hidden">                            
-<div>                        <h2><a name="t0" target="_blank"></a>工作区、暂存区、本地仓库</h2><p>先来看下面这张图：</p>
-<p><img alt="这里写图片描述" originheight="340" originwidth="1172" src="http://img.blog.csdn.net/20170617223822237?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" style="width:1172px;height:340px"></p>
-<blockquote>  <p>Workspace：工作区 <br/>
-     Index / Stage：暂存区 <br/>
-     Repository：仓库区（或本地仓库） <br/>
-     Remote：远程仓库</p>
-</blockquote><h2><a name="t1" target="_blank"></a>从工作区到暂存区再到提交本地仓库</h2><blockquote>  <p><strong>写在前面：</strong> 这里针对的是第一次创建的文件或者文件夹，都是还没有版本控制的</p>
-</blockquote><h3><a name="t2" target="_blank"></a>从工作区到暂存区（stage）</h3><p><img alt="这里写图片描述" src="http://img.blog.csdn.net/20170615160623046?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast"></p>
-<p>可以选择 <code>Stage all changes</code> 将所有改动的文件放到暂存区，对应的git命令为：</p>
-<code>git add .</code><ul><li style="color:rgb(153, 153, 153)">1</li></ul><p>也可以选择指定文件到暂存区，对应的git命令为：</p>
-<code>git add &lt;file1&gt; &lt;file2&gt; ...</code><ul><li style="color:rgb(153, 153, 153)">1</li></ul><p>如果是文件夹：</p>
-<code>git add &lt;dir&gt; <span># 包括子目录一起放到暂存区</span></code><ul><li style="color:rgb(153, 153, 153)">1</li></ul><p>如果你不知道这些命令，可以去查看文档，或者可以执行 <code>$ git status</code> 来查看当前版本的状态：</p>
-<p><img alt="这里写图片描述" src="http://img.blog.csdn.net/20170615182333153?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast"></p>
-<p>这里会提示你可以执行哪些命令做哪些事情</p>
-<h3><a name="t3" target="_blank"></a>从暂存区到工作区（unstage）</h3><p><img alt="这里写图片描述" src="http://img.blog.csdn.net/20170615164746771?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast"></p>
-<p>和从工作区到暂存区是一样的道理，可以全部恢复到工作区，也可以恢复指定文件，对应的git命令为：</p>
-<code>git reset HEAD &lt;file1&gt; &lt;file2&gt;... <span># 指定文件</span>git reset HEAD . <span># 全部文件</span></code><ul><li style="color:rgb(153, 153, 153)">1</li><li style="color:rgb(153, 153, 153)">2</li></ul><p><code>HEAD</code> 表示当前版本</p>
-<h3><a name="t4" target="_blank"></a>从暂存区到提交本地仓库（commit）</h3><p><img alt="这里写图片描述" src="http://img.blog.csdn.net/20170616134821458?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast"></p>
-<p>点击commit，对应的git命令为：</p>
-<code>git commit -m <span>"&lt;message&gt;"</span></code><ul><li style="color:rgb(153, 153, 153)">1</li></ul><p>这里你会发现提交的旁边过有个 <code>Amend</code> 选择项，这个是什么意思呢？先来看如果勾选的话对应的git命令是什么：</p>
-<code>git commit --amend -m <span>"&lt;message&gt;"</span></code><ul><li style="color:rgb(153, 153, 153)">1</li></ul><p>这个命令的意思是使用一次新的提交代替上一次提交，也就是会覆盖上一次提交的log</p>
-<p>如果你发现上一次提交的修改是错误的修改，但是不想在日志中显示之前的错误提交，你可以使用这个命令操作，或者是如果你想修改上一次提交填写的提交信息，也可以这样操作。</p>
-<p><img alt="这里写图片描述" src="http://img.blog.csdn.net/20170616140939998?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast"></p>
-<p>当然如果你仅仅是想修改提交时填写的信息的话，在GitKraken可以直接点击那次提交的log，然后在右边输入框中可以修改：</p>
-<p><img alt="这里写图片描述" src="http://img.blog.csdn.net/20170616141312175?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvbXJfd3VjaA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast"></p>
-                            </div>
-                                    </div>
-                
-<div>        版权声明：本文为博主原创文章，未经博主允许不得转载。&nbsp; &nbsp; &nbsp;&nbsp;</div>
-<br/>
-</div>
+## A New Post
+Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
