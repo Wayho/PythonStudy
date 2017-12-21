@@ -1,5 +1,6 @@
 ## README
 最近参加的一个培训，PPT是.ipynb，所以放到这里，便于查看。
+
 .ipynb在Github中可以直接浏览，不过加载较慢，可以打开http://nbviewer.jupyter.org 后填入Wayho，选择PythonStudy进行浏览，快捷方式为http://nbviewer.jupyter.org/github/wayho/PythonStudy/tree/master/ipynb/
 
 
