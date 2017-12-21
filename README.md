@@ -150,14 +150,14 @@
 
 
 #### +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-本页面使用Prose编辑
+### 本页面使用Prose编辑
 
 入口地址：http://prose.io/#Wayho/PythonStudy
 
 页面地址http://prose.io/#Wayho/PythonStudy/edit/master/README.md
 
 #### +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-## 通过GitKraken上传文件
+### 通过GitKraken上传文件
 GitKraken的使用方法，参考 [git图形化工具GitKraken的使用——工作区、暂存区、本地仓库](http://blog.csdn.net/mr_wuch/article/details/73385702)
 
 下图是工作区、暂存区、本地仓库的关系图
